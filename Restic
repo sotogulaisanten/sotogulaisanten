@@ -1,0 +1,14 @@
+https://restic.readthedocs.io/en/stable/
+
+
+#Init Repo
+restic init --repo {{nama_repo}}
+
+#Backup
+restic backup {{nama_sumber}} -r {{nama_repo}}
+
+#Snapshots
+restic -r {{nama_repo}} snaphosts
+
+#Restore
+restic -r {{nama_repo}} restore latest --target {{nama_folder_tujuan}}
