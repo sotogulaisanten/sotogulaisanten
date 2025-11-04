@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koneksi Berhasil!</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333; /* Warna teks utama */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            /* --- PENGATURAN LATAR BELAKANG DARI URL ANDA --- */
+            background-image: url('https://images.pexels.com/photos/585418/pexels-photo-585418.jpeg');
+            background-size: cover; /* Memastikan gambar menutupi seluruh layar */
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Latar belakang putih semi-transparan untuk keterbacaan */
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            max-width: 90%;
+            width: 500px;
+        }
+
+        h1 {
+            color: #28a745; /* Warna hijau untuk kesan 'sukses' */
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #0056b3;
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+        
+        p {
+            font-size: 1.1em;
+        }
+
+        .info-box {
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .info-box h3 {
+            margin-top: 0;
+            color: #dc3545; /* Warna merah untuk peringatan/penting */
+        }
+        
+        .info-box ul {
+            padding-left: 20px;
+            list-style: disc;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #007bff; /* Warna biru untuk tombol aksi */
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 25px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            font-size: 1.1em;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsif sederhana */
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎉 Selamat!</h1>
+        </header>
+        <main>
+            <h2>Anda telah **Berhasil Terhubung** ke Wi-Fi kami.</h2>
+
+            <div class="info-box">
+                <h3>**Pemberitahuan Penting:**</h3>
+                <ul>
+                    <li>Akses ini disediakan dengan waktu dan bandwidth yang terbatas.</li>
+                    <li>Mohon gunakan koneksi secara bijak dan hindari pengunduhan ilegal.</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <a href="https://caturelang.com" class="btn">Mulai Berselancar di Internet</a>
+        </footer>
+    </div>
+</body>
+</html>
